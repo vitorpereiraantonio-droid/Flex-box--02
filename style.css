@@ -1,0 +1,27 @@
+body {
+font-family: Arial, sans-serif;
+}
+
+.galeria {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+border: 2px solid black;
+padding: 20px;
+}
+
+.card {
+
+width: 150px;
+height: 120px;
+
+background-color: steelblue;
+color: white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+}
+
